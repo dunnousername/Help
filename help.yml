@@ -1,1 +1,104 @@
-# Help menu for the Galdur server.
+# Help menu for the The Arc's Galdur server.
+index-topics:
+  Default:
+    shortText: "&eWelcome to Galdur!&7"
+    preamble: Navigate through the help system using /help [topic], /help [pagenumber], or /help [topic] [pagenumber].
+    permission: bukkit.command.help
+    commands:
+      - Welcome
+      - Galdur
+      - Magic
+  Galdur:
+    shortText: "&eAbout Galdur.&f"
+    commands:
+  Magic:
+    shortText: "&eYour guide to magic...&7"
+    preamble: "Galdur is a world suffused with magical energy.  Type /help [topic] to learn more about:"
+    permission: bukkit.command.help
+    commands:
+      - Spellcasting
+      - Learning
+      - Colleges
+  Spellcasting:
+    shortText: "&eHow to cast a spell&7"
+    preamble: You cast spells either by command or with a wand.  The command to cast a spell is &3/cast [spell]&7.  Your starting wand is a stick.  Cycle through your available spells with right-click, and cast with left-click.  
+    permission: bukkit.command.help
+    commands:
+      - Mana
+  Economy:
+    shortText: "&eGaldur has an emerald based economy system.&f"
+    preamble: Coming soon means it's not done.
+    permissions: bukkit.command.help
+    commands:
+      - Money
+  Settlements:
+    shortText: Coming soon.
+    preamble: Coming soon means it's not done.
+    permissions: bukkit.command.help
+    commands:
+      - Default
+general-topics:
+  Welcome:
+    shortText: "&eWelcome to Inclusive Rec!&f"
+    fullText: |
+      Welcome to Inclusive Recreation's Minecraft server. 
+      The purpose of this project is to promote the social skills necessary for effective community participation. Things like respect for self, others, and shared spaces; consideration; cooperation; and leadership. 
+      In order to practice those skills, people need to interact with others. To encourage that, the game is designed to be harder for those that play solo.
+# Magic Tree
+  Reagents:
+    shortText: 
+    fullText: |
+      Most spell require reagents, or ingredients, to cast a spell.  The most common reagents are &6mana&f and inventory items.
+      Some spells require special reagents, however.  If you &4/cast help [spellname]&f, it will give you a list of reagents.
+  Mana:
+    shortText: "&eSpellcasting energy.&7"
+    fullText: |
+      Your mana is indicated on your experience bar, or by the &3mana&7 command.  Mana replenishes over time, or by right-clicking with various mana potion items (lapis lazuli and glowstone dust are two, but there are more...).  Your mana's maximum is determined by your &6degree&7.
+  College:
+    shortText: See &6colleges&f.
+  Colleges:
+    shortText: "&eIncreasing your magical rank.&7"
+    fullText: |
+      A wizard gains power by attaining &6degrees&f. The degrees are: &6novice&f, &6apprentice&f, &6journeyman&f, and &6master&f.
+    commands:
+      - Degrees
+  Degrees:
+    shortText: "Every mage is ranked through a system of degrees.  You can attain higher degrees by studying at &6colleges&f."
+    fullText: |
+        Each successive degree has more &6mana&f and &6memory&f.  You also gain access to specific spells.
+        The degrees are: &6novice&f, &6apprentice&f, &6journeyman&f, and &6master&f.
+    commands:
+      - Novice
+      - Apprentice
+      - Journeyman
+      - Master
+  Degree:
+    shortText: "&7See &6degrees&7."
+  Novice:
+    shortText: "&eNovice statistics&7"
+    fullText: |
+        Mana: 100
+        Memory: 20
+        Automatic spells: list, help, forget, gate, recall, enderchest.  (&3cast help [spellname]&7 for individual spell details.)
+        Attained by: joining the server.
+  Apprentice:
+    shortText: "&eApprentice statistics&7"
+    fullText: 
+        Mana: 150
+        Memory: 30
+        Automatic spells: bind, unbind.
+        Attained by: Collecting 20 magical research points, or by being sponsored by a college leader and joining their &6college&7.
+  Journeyman:
+    shortText: "&eJourneyman statistics&7"
+    fullText: |
+        Mana: 200
+        Memory: 50
+        Automatic spells: scroll.
+        Attained by: collecting 50 magical research points.
+  Master:
+    shortText: "&eMaster statistics&7:"
+    fullText: |
+        Mana: 300
+        Memory: 100
+        Automatic spells: spellbook, teach, tome.
+        Attained by: Completion of an approved masterwork, and collecting 100 magical research points.
