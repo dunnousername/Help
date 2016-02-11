@@ -1,4 +1,3 @@
-# Help menu for the The Arc's Galdur server.
 index-topics:
   Default:
     shortText: "&eWelcome to Galdur!&7"
@@ -24,7 +23,8 @@ index-topics:
     preamble: You cast spells either by command or with a wand.  The command to cast a spell is &3/cast [spell]&7.  Your starting wand is a stick.  Cycle through your available spells with right-click, and cast with left-click.  
     permission: bukkit.command.help
     commands:
-      - Mana
+      - Mana 
+      - Reagents
   Economy:
     shortText: "&eGaldur has an emerald based economy system.&f"
     preamble: Coming soon means it's not done.
@@ -59,11 +59,11 @@ general-topics:
   Colleges:
     shortText: "&eIncreasing your magical rank.&7"
     fullText: |
-      A wizard gains power by attaining &6degrees&f. The degrees are: &6novice&f, &6apprentice&f, &6journeyman&f, and &6master&f.
+      A wizard's power is based on &6degree&f. The degrees are: &6novice&f, &6apprentice&f, &6journeyman&f, and &6master&f.
     commands:
-      - Degrees
-  Degrees:
-    shortText: "Every mage is ranked through a system of degrees.  You can attain higher degrees by studying at &6colleges&f."
+      - Degree
+  Degree:
+    shortText: "&eEvery mage is ranked through a system of degrees.  You can attain a higher degree by studying at &6colleges&f."
     fullText: |
         Each successive degree has more &6mana&f and &6memory&f.  You also gain access to specific spells.
         The degrees are: &6novice&f, &6apprentice&f, &6journeyman&f, and &6master&f.
@@ -72,8 +72,6 @@ general-topics:
       - Apprentice
       - Journeyman
       - Master
-  Degree:
-    shortText: "&7See &6degrees&7."
   Novice:
     shortText: "&eNovice statistics&7"
     fullText: |
