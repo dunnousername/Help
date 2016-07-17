@@ -85,18 +85,18 @@ general-topics:
         Mana: 150
         Memory: 30
         Automatic spells: bind, unbind.
-        Attained by: Collecting 20 magical research points, or by being sponsored by a college leader and joining their &6college&7.
+        Attained by: Casting an Education Spell with 25,000 magicXP, or by being sponsored by a Headmaster and joining their &6college&7.
   Journeyman:
     shortText: "&eJourneyman statistics&7"
     fullText: |
         Mana: 200
         Memory: 50
         Automatic spells: scroll.
-        Attained by: collecting 50 magical research points.
+        Attained by: Casting an Education Spell with 25,000 magicXP, or by being sponsored by a Headmaster and joining their &6college&7.
   Master:
     shortText: "&eMaster statistics&7:"
     fullText: |
         Mana: 300
         Memory: 100
         Automatic spells: spellbook, teach, tome.
-        Attained by: Completion of an approved masterwork, and collecting 100 magical research points.
+        Attained by:  Casting an Education Spell with 25,000 magicXP, or by being sponsored by a Headmaster and joining their &6college&7.
