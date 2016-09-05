@@ -66,12 +66,13 @@ general-topics:
     shortText: "&eEvery mage is ranked through a system of degrees.  You can attain a higher degree by studying at &6colleges&f."
     fullText: |
         Each successive degree has more &6mana&f and &6memory&f.  You also gain access to specific spells.
-        The degrees are: &6novice&f, &6apprentice&f, &6journeyman&f, and &6master&f.
+        The degrees are: &6novice&f, &6apprentice&f, &6journeyman&f,&6master&f, and &6headmaster&f.
     commands:
       - Novice
       - Apprentice
       - Journeyman
       - Master
+      - HeadMaster
   Novice:
     shortText: "&eNovice statistics&7"
     fullText: |
@@ -85,18 +86,24 @@ general-topics:
         Mana: 150
         Memory: 30
         Automatic spells: bind, unbind.
-        Attained by: Casting an Education Spell with 25,000 magicXP, or by being sponsored by a Headmaster and joining their &6college&7.
+        Attained by: Casting an Education Spell or by being sponsored by a Headmaster and joining their &6college&7.
   Journeyman:
     shortText: "&eJourneyman statistics&7"
     fullText: |
         Mana: 200
         Memory: 50
         Automatic spells: scroll.
-        Attained by: Casting an Education Spell with 25,000 magicXP, or by being sponsored by a Headmaster and joining their &6college&7.
+        Attained by: Casting an Education Spell or by being sponsored by a Headmaster and joining their &6college&7.
   Master:
     shortText: "&eMaster statistics&7:"
     fullText: |
         Mana: 300
         Memory: 100
+        Attained by:  Casting an Education Spell or by being sponsored by a Headmaster and joining their &6college&7.
+  HeadMaster:
+    shortText: "&eHeadMaster statistics&7:"
+    fullText: |
+        Mana: 300
+        Memory: 100
         Automatic spells: spellbook, teach, tome.
-        Attained by:  Casting an Education Spell with 25,000 magicXP, or by being sponsored by a Headmaster and joining their &6college&7.
+        Attained by:  Being a Master and having a Masterwork project approved by the current HeadMasters.
