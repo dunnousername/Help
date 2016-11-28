@@ -41,14 +41,16 @@ general-topics:
   Welcome:
     shortText: "&eWelcome to Inclusive Rec!&f"
     fullText: |
-      Welcome to Inclusive Recreation's Minecraft server. 
-      The purpose of this project is to promote the social skills necessary for effective community participation. Things like respect for self, others, and shared spaces; consideration; cooperation; and leadership. 
-      In order to practice those skills, people need to interact with others. To encourage that, the game is designed to be harder for those that play solo.
+      &lWelcome to Inclusive Recreation's Minecraft server!&r&f
+      The purpose of this project is to promote the social skills necessary for effective community participation.
+      &6Things like respect for self, others, and shared spaces; consideration; cooperation; and leadership.&f
+      In order to practice those skills, &apeople need to interact with others.
+      &fTo encourage that, the game is designed to be harder for those that &cplay solo.&f
 # Magic Tree
   Reagents:
     shortText: 
     fullText: |
-      Most spell require reagents, or ingredients, to cast a spell.  The most common reagents are &6mana&f and inventory items.
+      Most spell require &oreagents&r&f, or ingredients, to cast a spell.  The most common reagents are &6mana&f and inventory items.
       Some spells require special reagents, however.  If you &4/cast help [spellname]&f, it will give you a list of reagents.
   Mana:
     shortText: "&eSpellcasting energy.&7"
@@ -101,7 +103,7 @@ general-topics:
         Memory: 100
         Attained by:  Casting an Education Spell or by being sponsored by a Headmaster and joining their &6college&7.
   HeadMaster:
-    shortText: "&eHeadMaster statistics&7:"
+    shortText: "&l&eHeadMaster&r&e statistics&7:"
     fullText: |
         Mana: 300
         Memory: 100
